@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style> 
+        main {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+            color: #081b29;
+        }
+
+        article:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Added CSS for positioning the image */
+        .sec2 {
+            position: absolute;
+            top: 0;
+            right: 200px; /* Adjust as needed */
+            margin-top: 175px;
+        }
+
+        .sec2 img {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tot">
+        <header class ="header">
+            <a href="#" class="logo">sathya</a>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <!--<a href="#contact">CONTACT</a>-->
+            </nav>
+        </header>
+        <!-- Moved the section containing the image to before the home section -->
+        <div class="sec2">
+            <img src="https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-11-avatar-2754576_120520.png" width="300px" height="300">
+        </div>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hii,I'm Sri Sathya Priya</h1>
+                <h3>Web Developer</h3>
+                <p>This is my webpage which shows all details and work experiences in web development.I am a designer,illustrator and the creator of useful side-project</p>
+                <div class="btn-box">
+                    <a href="#">Hire Me</a>
+                    <a href="#">Let's Talk</a>
+                </div>
+                <div class="home-sci">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/sri-sathya-priya-r-92b6b9259"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/srisathyapriya"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <main>
+        <article id="about" >
+            <h3>Career goal</h3>
+            <p>To get an opportunity Where I can make the best of my potential and contribute to the company's growth.Highly motivated and dedicated individual with management skills and strong technical ackground.</p>
+        </article>
+        <article id="education">
+            <h3>Education</h3>
+            <ul>
+                <li><p>Sri Eshwar College of Engineering, Coimbatore B. E Electronics and Communication Engineering | Graduation (Batch 2022-26) CGPA-8.4</p></li>
+                <li><p>Bharathiya vidya Mandir Matric Hr.Sec.School, Pollachi SSLC | 2019-2020 – 88.6%</p></li>
+                <li><p>Bharathiya Vidya Mandir Matric Hr.Sec.School, Pollachi HSC | 2021-2022 – 92.7%</p></li>
+            </ul>
+        </article>
+        <article id="skills">
+            <h3>Projects</h3>
+            <ul>
+                <li>Floor Cleaning Bot</li>
+                <li>Human scream Detection</li>
+                <li>Expense Tracker</li>
+            </ul>
+        </article>
+        <article id="skills">
+            <h3>Technical skills</h3>
+            <p>Programming languages:</p>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C language</li>
+                <li>Java language</li>
+            </ul>
+            <p>Core Concepts - Data Structures</p>
+            <h3>Area of Interests</h3>
+            <ul>
+                <li>Web development</li>
+                <li>VLSI</li>
+            </ul>
+            <h3>Certification</h3>
+            <ul>
+                <li>Certiffication on Data Structures</li>
+                <li>Certification on C language</li>
+                <li>Certification on Java language</li>
+            </ul>
+        </article>
+    </main>
+</body>
+</html>
